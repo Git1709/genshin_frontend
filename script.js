@@ -1,7 +1,8 @@
-const BASE_URL = "https://deployment2-ad2n.onrender.com"; // Replace with your backend URL
+const BASE_URL = "http://localhost:5555"; // Replace with your backend URL
 
 // Load characters when the page loads
 document.addEventListener("DOMContentLoaded", fetchCharacters);
+
 // Fetch all characters
 async function fetchCharacters() {
     try {
@@ -19,11 +20,15 @@ async function fetchCharacters() {
         // Scroll to the end to show the last character
         charactersContainer.scrollLeft = charactersContainer.scrollWidth;
 
+        // ✅ Automatically load the first character's details
+        if (characters.length > 0) {
+            fetchCharacterDetails(characters[0].name);
+        }
+
     } catch (error) {
         console.error("Error fetching characters:", error);
     }
 }
-
 
 // Fetch and display character details
 async function fetchCharacterDetails(name) {
