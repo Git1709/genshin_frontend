@@ -289,7 +289,7 @@ span:hover {
 #left::-webkit-scrollbar,
 #right::-webkit-scrollbar {
   display: none; /* For Chrome, Safari, and newer Edge: Hide scrollbar */
-}/*
+}
 .edge-browser #characters{
     justify-content: center;
 }
@@ -298,10 +298,10 @@ span:hover {
 .edge-browser #roles img,
 .edge-browser #weapon img,
 .edge-browser #materials img {
-  min-height: 80px;
-  min-width: 80px;
-  max-width: 85px;
-  max-height: 85px;
+  min-height: 70px;
+  min-width: 70px;
+  max-width: 7%;
+  max-height: 75px;
 }
 .edge-browser .artifact span,
 .edge-browser .roles span,
@@ -310,7 +310,7 @@ span:hover {
   font-size: 20px;
   font-family: Arial, sans-serif;
 }
-*/
+
 .brave-browser #left,
 #right {
   width: 15%;
