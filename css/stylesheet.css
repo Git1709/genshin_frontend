@@ -290,7 +290,9 @@ span:hover {
 #right::-webkit-scrollbar {
   display: none; /* For Chrome, Safari, and newer Edge: Hide scrollbar */
 }
-
+.edge-browser #characters{
+    justify-content: center;
+}
 .edge-browser #characters img,
 .edge-browser #artifact img,
 .edge-browser #roles img,
