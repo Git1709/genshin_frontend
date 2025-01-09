@@ -317,3 +317,20 @@ span:hover {
   font-size: 20px;
   font-family: Arial, sans-serif;
 }
+#key{
+    font-size: xx-large;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 179, 0); /* Example shadow */
+    mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+#key:hover{
+    border-radius: 5%;
+}
