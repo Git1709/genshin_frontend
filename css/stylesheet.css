@@ -289,7 +289,7 @@ span:hover {
 #left::-webkit-scrollbar,
 #right::-webkit-scrollbar {
   display: none; /* For Chrome, Safari, and newer Edge: Hide scrollbar */
-}
+}/*
 .edge-browser #characters{
     justify-content: center;
 }
@@ -310,7 +310,7 @@ span:hover {
   font-size: 20px;
   font-family: Arial, sans-serif;
 }
-
+*/
 .brave-browser #left,
 #right {
   width: 15%;
