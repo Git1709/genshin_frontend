@@ -22,7 +22,7 @@ async function fetchCharacters() {
 
         // ✅ Automatically load the first character's details
         if (characters.length > 0) {
-            fetchCharacterDetails(characters[0].name);
+            fetchCharacterDetails(characters[1].name);
         }
 
     } catch (error) {
