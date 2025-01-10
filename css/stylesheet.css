@@ -410,6 +410,7 @@ div:hover {
     flex-direction: column;
     align-items: center;
     height: auto;
+    width: 100%;
   }
 
   #left, #right {
@@ -434,23 +435,40 @@ div:hover {
 
 /* Smallest screens (phones below 480px width) */
 @media (max-width: 480px) {
+  html, body {
+    overflow-y: auto; /* Allow vertical scrolling */
+    height: auto; /* Let the height adapt to content */
+  }
+  
   #main {
-    flex-direction: column;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
     padding: 10px;
   }
 
-  #left, #right {
+  #mid {
+    order: 1; /* Show #mid first */
     width: 100%;
     margin-bottom: 10px;
   }
 
-  #mid {
+  #left {
+    order: 2; /* Show #left after #mid */
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #right {
+    order: 3; /* Show #right last */
     width: 100%;
   }
 
   #characters img {
     width: 30px;
     height: 30px;
+  }
+  #characters img:first-child{
+    margin-left: 200px;
   }
 
   .artifact img,

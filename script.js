@@ -1,4 +1,4 @@
-const BASE_URL = "https://deployment2-ad2n.onrender.com"; // Replace with your backend URL
+const BASE_URL = "http://localhost:5555"; // Replace with your backend URL
 
 // Load characters when the page loads
 document.addEventListener("DOMContentLoaded", fetchCharacters);
