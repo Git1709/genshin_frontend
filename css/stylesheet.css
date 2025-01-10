@@ -446,7 +446,15 @@ div:hover {
     width: 30px;
     height: 30px;
   }
-
+  #characters img,
+ #artifact img,
+ #roles img,
+#weapon img,
+ #materials img {
+  min-height: 70px;
+  min-width: 70px;
+  max-width: 7%;
+  max-height: 75px;
   .artifact img,
   .roles img,
   .weapon img,
