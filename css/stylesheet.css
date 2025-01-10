@@ -344,22 +344,22 @@ div:hover {
 
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
-/* General small devices (portrait and landscape) */
+/* General small devices (portrait and landscape) /
 @media (max-width: 1024px) {
   #main {
     flex-direction: column;
     align-items: center;
-    height: auto; /* Adjust to content */
+    height: auto; /* Adjust to content /
   }
 
   #left, #right {
-    width: 100%; /* Full width for side sections */
+    width: 100%; /* Full width for side sections /
     margin: 10px 0;
-    max-height: unset; /* Remove height restriction */
+    max-height: unset; /* Remove height restriction /
   }
 
   #mid {
-    width: 90%; /* Adjust center section width */
+    width: 90%; /* Adjust center section width /
   }
 
   #characters img {
@@ -381,21 +381,21 @@ div:hover {
   .materials span {
     font-size: 12px;
   }
-}
+}*/
 
-/* Landscape phones */
+/* Landscape phones 
 @media (max-width: 768px) and (orientation: landscape) {
   #main {
-    flex-direction: row; /* Keep row layout for landscape */
+    flex-direction: row; /* Keep row layout for landscape/
     align-items: flex-start;
   }
 
   #left, #right {
-    width: 20%; /* Slightly larger side sections */
+    width: 20%; /* Slightly larger side sections /
   }
 
   #mid {
-    width: 60%; /* Adjust center section for balance */
+    width: 60%; /* Adjust center section for balance /
   }
 
   #characters img {
@@ -403,7 +403,7 @@ div:hover {
     height: 40px;
   }
 }
-
+*/
 /* Portrait phones */
 @media(orientation: portrait) {
   #main {
@@ -433,33 +433,33 @@ div:hover {
   }
 }
 
-/* Smallest screens (phones below 480px width) */
+/* Smallest screens (phones below 480px width) 
 @media (max-width: 480px) {
   html, body {
-    overflow-y: auto; /* Allow vertical scrolling */
-    height: auto; /* Let the height adapt to content */
+    overflow-y: auto; /* Allow vertical scrolling /
+    height: auto; /* Let the height adapt to content /
   }
   
   #main {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: column; /* Stack children vertically /
     padding: 10px;
   }
 
   #mid {
-    order: 1; /* Show #mid first */
+    order: 1; /* Show #mid first /
     width: 100%;
     margin-bottom: 10px;
   }
 
   #left {
-    order: 2; /* Show #left after #mid */
+    order: 2; /* Show #left after #mid /
     width: 100%;
     margin-bottom: 10px;
   }
 
   #right {
-    order: 3; /* Show #right last */
+    order: 3; /* Show #right last /
     width: 100%;
   }
 
@@ -486,3 +486,4 @@ div:hover {
     font-size: 10px;
   }
 }
+*/
