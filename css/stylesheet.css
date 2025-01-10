@@ -52,7 +52,7 @@ div:hover {
 #left #roles div:hover,
 #right #weapon div:hover,
 #right #materials div:hover {
-    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.3), inset 0 0 30px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 30px 0 rgba(255, 255, 255, 0.5);
 }
 
 /*------------------------------------------------------------------*/
@@ -179,7 +179,13 @@ div:hover {
 .materials span {
   font-size: 16px;
   font-family: Arial, sans-serif;
+  
+
 }
+.artifact span:hover,
+.roles span:hover,
+.weapon span:hover,
+.materials span:hover{box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.3), inset 0 0 30px 0 rgba(0, 0, 0, 0.5);} 
 
 .artifact img:hover,
 .roles img:hover,
@@ -470,6 +476,10 @@ div:hover {
     font-size: 10px;
   }
 }
+#characters img:first-child {
+  margin-left: 150px;
+}
+
 }
 /* Smallest screens (phones below 480px width) 
 @media (max-width: 480px) {
