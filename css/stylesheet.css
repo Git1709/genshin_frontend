@@ -474,24 +474,24 @@ div:hover {
 /* Smallest screens (phones below 480px width) 
 @media (max-width: 480px) {
   html, body {
-    overflow-y: auto; /* Allow vertical scrolling /
-    height: auto; /* Let the height adapt to content /
+    overflow-y: auto;  Allow vertical scrolling /
+    height: auto;  Let the height adapt to content /
   }
   
   #main {
     display: flex;
-    flex-direction: column; /* Stack children vertically /
+    flex-direction: column;  Stack children vertically /
     padding: 10px;
   }
 
   #mid {
-    order: 1; /* Show #mid first /
+    order: 1; / Show #mid first /
     width: 100%;
     margin-bottom: 10px;
   }
 
   #left {
-    order: 2; /* Show #left after #mid /
+    order: 2; / Show #left after #mid /
     width: 100%;
     margin-bottom: 10px;
   }
@@ -523,4 +523,5 @@ div:hover {
   .materials span {
     font-size: 10px;
   }
-}*/
+
+}}*/}
